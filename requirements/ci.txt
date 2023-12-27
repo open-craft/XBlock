@@ -8,7 +8,7 @@ certifi==2022.12.7
     # via requests
 charset-normalizer==3.0.1
     # via requests
-codecov==2.1.12
+codecov==2.1.13
     # via -r requirements/ci.in
 coverage==7.1.0
     # via codecov
@@ -36,7 +36,6 @@ tomli==2.0.1
     # via tox
 tox==3.28.0
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/ci.in
     #   tox-battery
 tox-battery==0.6.1
