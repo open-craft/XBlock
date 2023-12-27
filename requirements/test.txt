@@ -106,7 +106,7 @@ mccabe==0.7.0
     # via pylint
 mock==5.0.1
     # via -r requirements/test.in
-openedx-django-pyfs==3.2.1
+openedx-django-pyfs @ git+https://github.com/open-craft/django-pyfs.git@opencraft-release/3.5.0-tox-3
     # via -r requirements/django.txt
 packaging==23.0
     # via
@@ -204,9 +204,7 @@ tomli==2.0.1
 tomlkit==0.11.6
     # via pylint
 tox==3.28.0
-    # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
-    #   -r requirements/test.in
+    # via -r requirements/test.in
 typing-extensions==4.4.0
     # via
     #   astroid

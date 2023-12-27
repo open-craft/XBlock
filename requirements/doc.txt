@@ -66,7 +66,7 @@ markupsafe==2.1.2
     #   jinja2
 mock==5.0.1
     # via -r requirements/doc.in
-openedx-django-pyfs==3.2.1
+openedx-django-pyfs @ git+https://github.com/open-craft/django-pyfs.git@opencraft-release/3.5.0-tox-3
     # via -r requirements/django.txt
 packaging==23.0
     # via sphinx
@@ -102,7 +102,6 @@ snowballstemmer==2.2.0
     # via sphinx
 sphinx==5.3.0
     # via
-    #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/doc.in
     #   edx-sphinx-theme
 sphinxcontrib-applehelp==1.0.4
